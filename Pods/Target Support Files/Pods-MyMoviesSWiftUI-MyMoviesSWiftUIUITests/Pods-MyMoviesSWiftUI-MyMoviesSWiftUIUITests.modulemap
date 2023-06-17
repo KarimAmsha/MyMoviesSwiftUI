@@ -1,0 +1,6 @@
+framework module Pods_MyMoviesSWiftUI_MyMoviesSWiftUIUITests {
+  umbrella header "Pods-MyMoviesSWiftUI-MyMoviesSWiftUIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "ctrating",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/StewartLynch/CTRating",
+      "state" : {
+        "revision" : "858f77b580021dc895c6f988a0f0270ad08edb64",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "popupview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exyte/PopupView.git",
+      "state" : {
+        "revision" : "c382cb80e2148daf1da2d7077a6b0e11faae8269",
+        "version" : "2.5.0"
+      }
+    }
+  ],
+  "version" : 2
+}
