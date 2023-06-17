@@ -18,7 +18,7 @@ struct Movie: Codable {
     }
 }
 
-struct MovieResult: Codable {
+struct MovieResult: Codable, Hashable {
     let backdropPath: String?
     let firstAirDate: String
     let genreIds: [Int]

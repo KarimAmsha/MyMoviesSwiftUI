@@ -15,7 +15,7 @@ struct ContentView: View {
             if self.isActive {
                 AnyView(
                     withAnimation {
-                        MainView()
+                        HomeView()
                             .transition(.scale)
                     }
                 )

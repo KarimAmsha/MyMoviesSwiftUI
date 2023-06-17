@@ -42,4 +42,9 @@ extension Color {
     func lightPrimary() -> Color {
         return Color(hex: "85CBA0")
     }
+    
+    static
+    func yellowffcd3c() -> Color {
+        return Color(hex: "ffcd3c")
+    }
 }
