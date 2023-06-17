@@ -35,6 +35,7 @@
 		1EB6F4E22A3E506F009D328D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4E12A3E506F009D328D /* APIClient.swift */; };
 		1EB6F4E42A3E5083009D328D /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4E32A3E5083009D328D /* APIEndpoint.swift */; };
 		1EB6F4E62A3E50E8009D328D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4E52A3E50E8009D328D /* Movie.swift */; };
+		1EB6F4E92A3E5231009D328D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1EB6F4E82A3E5231009D328D /* SDWebImageSwiftUI */; };
 		4B8606F1DCB29E9DDF78A4A4 /* Pods_MyMoviesSWiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3776300B40E481ECEE9CCB31 /* Pods_MyMoviesSWiftUI.framework */; };
 		837088C36DDCF083C0AA24C8 /* Pods_MyMoviesSWiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F58FD90341FBC515E561F8 /* Pods_MyMoviesSWiftUITests.framework */; };
 		FAD7C8FF616D78434145C33D /* Pods_MyMoviesSWiftUI_MyMoviesSWiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519274E240FE31583152A483 /* Pods_MyMoviesSWiftUI_MyMoviesSWiftUIUITests.framework */; };
@@ -104,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB6F4E92A3E5231009D328D /* SDWebImageSwiftUI in Frameworks */,
 				1EB6F4B42A3E4481009D328D /* PopupView in Frameworks */,
 				1EB6F4B12A3E4424009D328D /* CTRating in Frameworks */,
 				4B8606F1DCB29E9DDF78A4A4 /* Pods_MyMoviesSWiftUI.framework in Frameworks */,
@@ -355,6 +357,7 @@
 			packageProductDependencies = (
 				1EB6F4B02A3E4424009D328D /* CTRating */,
 				1EB6F4B32A3E4481009D328D /* PopupView */,
+				1EB6F4E82A3E5231009D328D /* SDWebImageSwiftUI */,
 			);
 			productName = MyMoviesSWiftUI;
 			productReference = 1EB6F47D2A3E42C4009D328D /* MyMoviesSWiftUI.app */;
@@ -434,6 +437,7 @@
 			packageReferences = (
 				1EB6F4AF2A3E4424009D328D /* XCRemoteSwiftPackageReference "CTRating" */,
 				1EB6F4B22A3E4481009D328D /* XCRemoteSwiftPackageReference "PopupView" */,
+				1EB6F4E72A3E5231009D328D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 1EB6F47E2A3E42C4009D328D /* Products */;
 			projectDirPath = "";
@@ -951,6 +955,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		1EB6F4E72A3E5231009D328D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -963,6 +975,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1EB6F4B22A3E4481009D328D /* XCRemoteSwiftPackageReference "PopupView" */;
 			productName = PopupView;
+		};
+		1EB6F4E82A3E5231009D328D /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EB6F4E72A3E5231009D328D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 

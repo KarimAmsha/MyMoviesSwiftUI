@@ -9,7 +9,11 @@ import SwiftUI
 
 struct SplashView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image("ic_logo")
+                .resizable()
+                .frame(width: UIScreen.main.bounds.width/1.5, height: UIScreen.main.bounds.width/6, alignment: .center)
+        }
     }
 }
 
