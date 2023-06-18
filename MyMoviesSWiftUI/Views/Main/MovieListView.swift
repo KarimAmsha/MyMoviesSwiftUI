@@ -13,6 +13,7 @@ struct MovieListView: View {
     @ObservedObject var viewModel: MovieViewModel
 
     var body: some View {
+        // List of movies
         ScrollView(showsIndicators: false) {
             VStack(spacing: 8) {
                 ForEach(viewModel.movies, id: \.self) { movie in

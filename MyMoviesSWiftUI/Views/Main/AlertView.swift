@@ -11,6 +11,7 @@ struct AlertView: View {
     @Binding var message: String
 
     var body: some View {
+        // Alert view
         HStack(spacing: 8) {
             Text(message)
                 .foregroundColor(.white)

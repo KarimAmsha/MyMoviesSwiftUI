@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SplashView: View {
     var body: some View {
+        // Spalsh view
         ZStack {
             Image("ic_logo")
                 .resizable()

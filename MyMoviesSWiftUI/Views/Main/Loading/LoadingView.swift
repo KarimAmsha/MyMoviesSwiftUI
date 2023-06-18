@@ -13,6 +13,7 @@ struct LoadingView<Content>: View where Content: View {
     var content: () -> Content
 
     var body: some View {
+        // Loader view
         GeometryReader { geometry in
             let size = geometry.size.width / 10
             ZStack(alignment: .center) {

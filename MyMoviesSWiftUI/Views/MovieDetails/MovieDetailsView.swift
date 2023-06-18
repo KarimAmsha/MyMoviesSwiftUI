@@ -15,6 +15,7 @@ struct MovieDetailsView: View {
         GeometryReader { geometry in
             ScrollView(showsIndicators: false) {
                 VStack(alignment: .leading, spacing: 20) {
+                    // Movie poster image view
                     AsyncImage(url: movie.posterURL) { phase in
                         switch phase {
                         case .empty:
@@ -32,11 +33,14 @@ struct MovieDetailsView: View {
                     }
 
                     VStack(alignment: .leading, spacing: 10) {
+                        // Movie title label
                         Text(movie.name)
                             .customFont(weight: .medium, size: 20)
                         
+                        // Rating view
                         RatingView(rating: movie.voteAverage)
                         
+                        // Overview view
                         Text(movie.overview)
                             .customFont(weight: .regular, size: 15)
                             .multilineTextAlignment(.leading)
@@ -55,6 +59,7 @@ struct MovieDetailsView: View {
         }
     }
     
+    // Custom back button view
     private var backButton: some View {
         Button(action: {
             presentationMode.wrappedValue.dismiss()

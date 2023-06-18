@@ -15,17 +15,20 @@ struct ContentView: View {
             if self.isActive {
                 AnyView(
                     withAnimation {
+                        // Home View with list of movies
                         HomeView()
                             .transition(.scale)
                     }
                 )
             } else {
+                // Show spalsh view
                 SplashView()
             }
         }
         .onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
                 withAnimation {
+                    // Change the state of 'isActive' to show home view
                     self.isActive = true
                 }
             }

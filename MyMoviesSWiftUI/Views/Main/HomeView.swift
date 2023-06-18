@@ -13,6 +13,7 @@ struct HomeView: View {
     var body: some View {
         LoadingView(isShowing: $movieViewModel.isLoading) {
             NavigationView {
+                // A view displaying a list of movies, with a navigation bar styled differently for iPad and iPhone.
                 MovieListView(viewModel: movieViewModel)
                     .navigationBarTitle(HomeTitle)
                     .navigationBarTitleDisplayMode(.inline)
