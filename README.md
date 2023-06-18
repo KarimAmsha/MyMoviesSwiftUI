@@ -1,8 +1,8 @@
-TV Shows App
+# TV Shows App
 
 This repository contains an iOS application built using SwiftUI. The app utilizes the MVVM (Model-View-ViewModel) architectural pattern along with the RXSwift library. The app fetches data from the TMDB API to display a list of TV shows and allows users to view detailed information about each show.
 
-Features
+## Features
 
 - Fetches TV show data from the TMDB API.
 - Displays a list of TV shows with their titles, posters, and ratings.
@@ -10,14 +10,14 @@ Features
 - Shows additional information about the selected TV show.
 - Provides a clean and user-friendly interface for browsing and exploring TV shows.
 
-Technologies Used
+## Technologies Used
 
 - SwiftUI: The app is built using SwiftUI, Apple's modern declarative framework for building user interfaces across all Apple platforms.
 - MVVM (Model-View-ViewModel) architectural pattern: The app follows the MVVM pattern to separate the concerns of data presentation and business logic. This helps maintain a clean and organized codebase.
 - RXSwift: The app utilizes RXSwift to handle asynchronous operations, such as network requests and data binding. RXSwift provides a reactive programming paradigm that simplifies handling of asynchronous events and data streams.
 - TMDB API: The app integrates with the TMDB (The Movie Database) API to fetch TV show data. This includes retrieving a list of TV shows and detailed information for each show.
 
-Getting Started
+## Getting Started
 
 To run this application locally, follow the steps below:
 
