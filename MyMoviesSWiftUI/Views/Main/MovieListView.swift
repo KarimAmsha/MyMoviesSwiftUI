@@ -7,26 +7,41 @@
 
 import SwiftUI
 import CTRating
+import PopupView
 
 struct MovieListView: View {
-    @ObservedObject var movies: MovieViewModel
-    
+    @ObservedObject var viewModel: MovieViewModel
+
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             VStack(spacing: 8) {
-                ForEach(movies.movies, id: \.self) { movie in
+                ForEach(viewModel.movies, id: \.self) { movie in
                     NavigationLink(destination: MovieDetailsView(movie: movie)) {
                         MovieRowView(movie: movie)
                     }
                 }
             }
         }
+        .popup(isPresented: $viewModel.showAlert) {
+            AlertView(message: $viewModel.message)
+        } customize: {
+            $0
+                .type(.floater())
+                .position(.top)
+                .animation(.spring())
+                .closeOnTapOutside(true)
+                .backgroundColor(.black.opacity(0.5))
+                .autohideIn(5)
+        }
+        .onAppear {
+            viewModel.fetchPopularMovies()
+        }
     }
 }
 
 struct MovieListView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieListView(movies: MovieViewModel())
+        MovieListView(viewModel: MovieViewModel())
     }
 }
 

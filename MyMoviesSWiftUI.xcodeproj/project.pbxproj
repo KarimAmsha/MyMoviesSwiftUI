@@ -35,11 +35,26 @@
 		1EB6F4E22A3E506F009D328D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4E12A3E506F009D328D /* APIClient.swift */; };
 		1EB6F4E42A3E5083009D328D /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4E32A3E5083009D328D /* APIEndpoint.swift */; };
 		1EB6F4E62A3E50E8009D328D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4E52A3E50E8009D328D /* Movie.swift */; };
-		1EB6F4E92A3E5231009D328D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1EB6F4E82A3E5231009D328D /* SDWebImageSwiftUI */; };
 		1EB6F4EB2A3E5635009D328D /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4EA2A3E5635009D328D /* MovieViewModel.swift */; };
 		1EB6F4ED2A3E5812009D328D /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4EC2A3E5812009D328D /* MovieListView.swift */; };
 		1EB6F4EF2A3E5832009D328D /* MovieRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4EE2A3E5832009D328D /* MovieRowView.swift */; };
 		1EB6F4F12A3E584E009D328D /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F4F02A3E584E009D328D /* MovieDetailsView.swift */; };
+		1EEA79072A3F80FE00B2B648 /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79062A3F80FE00B2B648 /* Monitor.swift */; };
+		1EEA79092A3F823900B2B648 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79082A3F823900B2B648 /* AlertView.swift */; };
+		1EEA790B2A3F848900B2B648 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA790A2A3F848900B2B648 /* LoadingView.swift */; };
+		1EEA790E2A3F84B800B2B648 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA790D2A3F84B800B2B648 /* ActivityIndicatorView.swift */; };
+		1EEA791A2A3F850C00B2B648 /* ArcsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79102A3F850B00B2B648 /* ArcsIndicatorView.swift */; };
+		1EEA791B2A3F850C00B2B648 /* EqualizerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79112A3F850B00B2B648 /* EqualizerIndicatorView.swift */; };
+		1EEA791C2A3F850C00B2B648 /* GradientIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79122A3F850C00B2B648 /* GradientIndicatorView.swift */; };
+		1EEA791D2A3F850C00B2B648 /* FlickeringDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79132A3F850C00B2B648 /* FlickeringDotsIndicatorView.swift */; };
+		1EEA791E2A3F850C00B2B648 /* GrowingArcIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79142A3F850C00B2B648 /* GrowingArcIndicatorView.swift */; };
+		1EEA791F2A3F850C00B2B648 /* GrowingCircleIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79152A3F850C00B2B648 /* GrowingCircleIndicatorView.swift */; };
+		1EEA79202A3F850C00B2B648 /* OpacityDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79162A3F850C00B2B648 /* OpacityDotsIndicatorView.swift */; };
+		1EEA79212A3F850C00B2B648 /* DefaultIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79172A3F850C00B2B648 /* DefaultIndicatorView.swift */; };
+		1EEA79222A3F850C00B2B648 /* ScalingDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79182A3F850C00B2B648 /* ScalingDotsIndicatorView.swift */; };
+		1EEA79232A3F850C00B2B648 /* RotatingDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79192A3F850C00B2B648 /* RotatingDotsIndicatorView.swift */; };
+		1EEA79252A3F897000B2B648 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79242A3F897000B2B648 /* NavigationBarModifier.swift */; };
+		1EEA792A2A3F924100B2B648 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA79292A3F924100B2B648 /* RatingView.swift */; };
 		4B8606F1DCB29E9DDF78A4A4 /* Pods_MyMoviesSWiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3776300B40E481ECEE9CCB31 /* Pods_MyMoviesSWiftUI.framework */; };
 		837088C36DDCF083C0AA24C8 /* Pods_MyMoviesSWiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F58FD90341FBC515E561F8 /* Pods_MyMoviesSWiftUITests.framework */; };
 		FAD7C8FF616D78434145C33D /* Pods_MyMoviesSWiftUI_MyMoviesSWiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519274E240FE31583152A483 /* Pods_MyMoviesSWiftUI_MyMoviesSWiftUIUITests.framework */; };
@@ -97,6 +112,22 @@
 		1EB6F4EC2A3E5812009D328D /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		1EB6F4EE2A3E5832009D328D /* MovieRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowView.swift; sourceTree = "<group>"; };
 		1EB6F4F02A3E584E009D328D /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		1EEA79062A3F80FE00B2B648 /* Monitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
+		1EEA79082A3F823900B2B648 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		1EEA790A2A3F848900B2B648 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1EEA790D2A3F84B800B2B648 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79102A3F850B00B2B648 /* ArcsIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcsIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79112A3F850B00B2B648 /* EqualizerIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualizerIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79122A3F850C00B2B648 /* GradientIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79132A3F850C00B2B648 /* FlickeringDotsIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickeringDotsIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79142A3F850C00B2B648 /* GrowingArcIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowingArcIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79152A3F850C00B2B648 /* GrowingCircleIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowingCircleIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79162A3F850C00B2B648 /* OpacityDotsIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityDotsIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79172A3F850C00B2B648 /* DefaultIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79182A3F850C00B2B648 /* ScalingDotsIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingDotsIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79192A3F850C00B2B648 /* RotatingDotsIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingDotsIndicatorView.swift; sourceTree = "<group>"; };
+		1EEA79242A3F897000B2B648 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		1EEA79292A3F924100B2B648 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		3776300B40E481ECEE9CCB31 /* Pods_MyMoviesSWiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoviesSWiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48617F30BB2722C18FD04DB4 /* Pods-MyMoviesSWiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoviesSWiftUITests.release.xcconfig"; path = "Target Support Files/Pods-MyMoviesSWiftUITests/Pods-MyMoviesSWiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		519274E240FE31583152A483 /* Pods_MyMoviesSWiftUI_MyMoviesSWiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoviesSWiftUI_MyMoviesSWiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +144,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB6F4E92A3E5231009D328D /* SDWebImageSwiftUI in Frameworks */,
 				1EB6F4B42A3E4481009D328D /* PopupView in Frameworks */,
 				1EB6F4B12A3E4424009D328D /* CTRating in Frameworks */,
 				4B8606F1DCB29E9DDF78A4A4 /* Pods_MyMoviesSWiftUI.framework in Frameworks */,
@@ -266,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				1EB6F4EA2A3E5635009D328D /* MovieViewModel.swift */,
+				1EEA79062A3F80FE00B2B648 /* Monitor.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -273,6 +304,7 @@
 		1EB6F4BA2A3E4514009D328D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1EEA79262A3F8DAF00B2B648 /* MovieDetails */,
 				1EB6F4DC2A3E4CF9009D328D /* Main */,
 				1EB6F4DB2A3E4CEA009D328D /* Initial */,
 				1EB6F4D62A3E4C3A009D328D /* Modifiers */,
@@ -324,6 +356,7 @@
 			children = (
 				1EB6F4D72A3E4C4D009D328D /* CustomFont.swift */,
 				1EB6F4D92A3E4C85009D328D /* IPadNavigationViewStyle.swift */,
+				1EEA79242A3F897000B2B648 /* NavigationBarModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -340,12 +373,49 @@
 		1EB6F4DC2A3E4CF9009D328D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1EEA790C2A3F84A300B2B648 /* Loading */,
 				1EB6F4DF2A3E4EC0009D328D /* HomeView.swift */,
 				1EB6F4EC2A3E5812009D328D /* MovieListView.swift */,
 				1EB6F4EE2A3E5832009D328D /* MovieRowView.swift */,
-				1EB6F4F02A3E584E009D328D /* MovieDetailsView.swift */,
+				1EEA79082A3F823900B2B648 /* AlertView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		1EEA790C2A3F84A300B2B648 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA790F2A3F84D900B2B648 /* ActivityIndicator */,
+				1EEA790A2A3F848900B2B648 /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		1EEA790F2A3F84D900B2B648 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA79102A3F850B00B2B648 /* ArcsIndicatorView.swift */,
+				1EEA79172A3F850C00B2B648 /* DefaultIndicatorView.swift */,
+				1EEA79112A3F850B00B2B648 /* EqualizerIndicatorView.swift */,
+				1EEA79132A3F850C00B2B648 /* FlickeringDotsIndicatorView.swift */,
+				1EEA79122A3F850C00B2B648 /* GradientIndicatorView.swift */,
+				1EEA79142A3F850C00B2B648 /* GrowingArcIndicatorView.swift */,
+				1EEA79152A3F850C00B2B648 /* GrowingCircleIndicatorView.swift */,
+				1EEA79162A3F850C00B2B648 /* OpacityDotsIndicatorView.swift */,
+				1EEA79192A3F850C00B2B648 /* RotatingDotsIndicatorView.swift */,
+				1EEA79182A3F850C00B2B648 /* ScalingDotsIndicatorView.swift */,
+				1EEA790D2A3F84B800B2B648 /* ActivityIndicatorView.swift */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		1EEA79262A3F8DAF00B2B648 /* MovieDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1EB6F4F02A3E584E009D328D /* MovieDetailsView.swift */,
+				1EEA79292A3F924100B2B648 /* RatingView.swift */,
+			);
+			path = MovieDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,7 +439,6 @@
 			packageProductDependencies = (
 				1EB6F4B02A3E4424009D328D /* CTRating */,
 				1EB6F4B32A3E4481009D328D /* PopupView */,
-				1EB6F4E82A3E5231009D328D /* SDWebImageSwiftUI */,
 			);
 			productName = MyMoviesSWiftUI;
 			productReference = 1EB6F47D2A3E42C4009D328D /* MyMoviesSWiftUI.app */;
@@ -449,7 +518,6 @@
 			packageReferences = (
 				1EB6F4AF2A3E4424009D328D /* XCRemoteSwiftPackageReference "CTRating" */,
 				1EB6F4B22A3E4481009D328D /* XCRemoteSwiftPackageReference "PopupView" */,
-				1EB6F4E72A3E5231009D328D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 1EB6F47E2A3E42C4009D328D /* Products */;
 			projectDirPath = "";
@@ -602,25 +670,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EB6F48D2A3E42C6009D328D /* MyMoviesSWiftUI.xcdatamodeld in Sources */,
+				1EEA79202A3F850C00B2B648 /* OpacityDotsIndicatorView.swift in Sources */,
 				1EB6F4EF2A3E5832009D328D /* MovieRowView.swift in Sources */,
 				1EB6F4E22A3E506F009D328D /* APIClient.swift in Sources */,
+				1EEA791A2A3F850C00B2B648 /* ArcsIndicatorView.swift in Sources */,
+				1EEA790E2A3F84B800B2B648 /* ActivityIndicatorView.swift in Sources */,
+				1EEA79232A3F850C00B2B648 /* RotatingDotsIndicatorView.swift in Sources */,
+				1EEA791C2A3F850C00B2B648 /* GradientIndicatorView.swift in Sources */,
+				1EEA79092A3F823900B2B648 /* AlertView.swift in Sources */,
 				1EB6F4E02A3E4EC0009D328D /* HomeView.swift in Sources */,
+				1EEA791B2A3F850C00B2B648 /* EqualizerIndicatorView.swift in Sources */,
 				1EB6F48A2A3E42C6009D328D /* Persistence.swift in Sources */,
 				1EB6F4E42A3E5083009D328D /* APIEndpoint.swift in Sources */,
 				1EB6F4D32A3E4AAF009D328D /* Enum.swift in Sources */,
+				1EEA791D2A3F850C00B2B648 /* FlickeringDotsIndicatorView.swift in Sources */,
+				1EEA79252A3F897000B2B648 /* NavigationBarModifier.swift in Sources */,
 				1EB6F4E62A3E50E8009D328D /* Movie.swift in Sources */,
 				1EB6F4D12A3E4A89009D328D /* Utilities.swift in Sources */,
 				1EB6F4832A3E42C4009D328D /* ContentView.swift in Sources */,
 				1EB6F4DE2A3E4DA7009D328D /* SplashView.swift in Sources */,
+				1EEA79212A3F850C00B2B648 /* DefaultIndicatorView.swift in Sources */,
 				1EB6F4D82A3E4C4D009D328D /* CustomFont.swift in Sources */,
 				1EB6F4ED2A3E5812009D328D /* MovieListView.swift in Sources */,
+				1EEA79222A3F850C00B2B648 /* ScalingDotsIndicatorView.swift in Sources */,
 				1EB6F4DA2A3E4C85009D328D /* IPadNavigationViewStyle.swift in Sources */,
 				1EB6F4F12A3E584E009D328D /* MovieDetailsView.swift in Sources */,
 				1EB6F4812A3E42C4009D328D /* MyMoviesSWiftUIApp.swift in Sources */,
+				1EEA791F2A3F850C00B2B648 /* GrowingCircleIndicatorView.swift in Sources */,
+				1EEA79072A3F80FE00B2B648 /* Monitor.swift in Sources */,
 				1EB6F4CF2A3E4A60009D328D /* Strings.swift in Sources */,
 				1EB6F4CD2A3E4973009D328D /* Color+Extensions.swift in Sources */,
 				1EB6F4EB2A3E5635009D328D /* MovieViewModel.swift in Sources */,
 				1EB6F4D52A3E4ADF009D328D /* Constants.swift in Sources */,
+				1EEA791E2A3F850C00B2B648 /* GrowingArcIndicatorView.swift in Sources */,
+				1EEA792A2A3F924100B2B648 /* RatingView.swift in Sources */,
+				1EEA790B2A3F848900B2B648 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -973,14 +1057,6 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		1EB6F4E72A3E5231009D328D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -993,11 +1069,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1EB6F4B22A3E4481009D328D /* XCRemoteSwiftPackageReference "PopupView" */;
 			productName = PopupView;
-		};
-		1EB6F4E82A3E5231009D328D /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1EB6F4E72A3E5231009D328D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
-			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 

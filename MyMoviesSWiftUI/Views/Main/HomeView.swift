@@ -9,14 +9,17 @@ import SwiftUI
 
 struct HomeView: View {
     @StateObject private var movieViewModel = MovieViewModel()
-    
+
     var body: some View {
-        NavigationView {
-            MovieListView(movies: movieViewModel)
-                .onAppear {
-                    movieViewModel.fetchPopularMovies()
-                }
-                .navigationBarTitle(HomeTitle)
+        LoadingView(isShowing: $movieViewModel.isLoading) {
+            NavigationView {
+                MovieListView(viewModel: movieViewModel)
+                    .navigationBarTitle(HomeTitle)
+                    .navigationBarTitleDisplayMode(.inline)
+                    .navigationBarColor(titleColor: .black)
+                    .modify(if: UIDevice.current.userInterfaceIdiom == .pad, then: IPadNavigationViewStyle(), else: IPhoneNavigationViewStyle())
+            }
+            .navigationViewStyle(.stack)
         }
     }
 }
